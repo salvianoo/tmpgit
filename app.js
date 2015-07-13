@@ -1,12 +1,10 @@
 var MyApp = {};
 
 MyApp.init = function init() {
-  var btn = document.querySelector('button');
-  
-  btn.addEventListener('click', function() {
-    console.log('Button clicked');
-  });
-};
+  document.querySelector('button')
+    .addEventListener('click', function() {
+      console.log('Button clicked');
+    });
 
 (function() {
 
